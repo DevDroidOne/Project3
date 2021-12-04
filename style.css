@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+}
+.wrapper{
+    /*width: 1170px;*/
+    margin: 0 auto;
+}
+header{
+    height: 100px;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+.logo{
+    width :20%;
+    float: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(111, 156, 240) ;
+    letter-spacing: 5px;
+}
+nav{
+    float: right;
+    line-height:  100px;
+}
+nav a{
+    text-decoration: none;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 7px;
+    color:darkcyan;
+}
+.banner-area{
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(https://wallpapercave.com/wp/aKfUgdb.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.banner-area h2{
+    padding-top: 12%;
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color:rgb(15, 163, 64);
+}
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: #ddd;
+    height: 1500px;
+}
+.content-area h2{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+.content-area p{
+    padding: 2%;
+    font-family: monospace;
+    line-height: 30px;
+}
