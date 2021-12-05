@@ -17,7 +17,7 @@ header{
     position: fixed;
 }
 .logo{
-    width :20%;
+    width :40%;
     float: left;
     line-height: 100px;
 }
@@ -29,6 +29,7 @@ header{
     letter-spacing: 5px;
 }
 nav{
+    width: 30%;
     float: right;
     line-height:  100px;
 }
@@ -72,6 +73,7 @@ nav a{
 }
 .content-area p{
     padding: 2%;
-    font-family: monospace;
+    font-family: fantasy;
     line-height: 30px;
+    font-size: 12px;
 }
