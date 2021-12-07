@@ -3,12 +3,16 @@
 <head>
     <meta charset="utf-8">
     <title>Project 3</title>
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 
 <body>
+    <div class="loader">
+        <div></div>
+    </div>
     <div class="box-area">
         <header>
             <div class="wrapper">
@@ -17,6 +21,7 @@
                 </div>
                 <nav>
                     <a href="personInfo.html">Personal info</a>
+                    <a href="playlist.html">Playlist</a>
                 </nav>
             </div>
         </header>
@@ -25,18 +30,34 @@
         </div>
         <div class="content-area">
             <div class="wrapper">
-                <p>Hi I am third year student studing IT</p>
-                <h2>Experience</h2>
+                <h3>Hi I am third year student studying IT at North West University, seeking experience in the robotics/automation industry.</h3>
+                <h2>Personal Experience</h2>
                 <ul>
-                    <li>Basic Tensorflow</li>
-                    <li>Python</li>
-                    <li>Basic Django</li>
+                    <li>Reverse engineering software used in DOS for a small business to run on modern linux/windows systems</li>
+                    <li>Machine learning using Tensorflow</li>
+                    <li>Python, C++</li>
+                    <li>Django</li>
+                    <li>Arduino,Embedded</li>
+                    <li>Raspberry Pi</li>
+                    <li>Linux</li>
                 </ul>
                 <h2>Education</h2>
                     <li>Third year Bsc IT at the NWU</li>
+                    <li>National senior certificate</li>
                 <h2>Additional Info</h2>
+                <li>Enjoy learning</li>
+                <li>In my free time I like making music as hobby</li>
+                <li>After I finish my degree I am looking to study mechatronic engineering</li>
             </div>
         </div>
     </div>
+    <script>
+        $(window).on('load',function(){
+            $(".loader").fadeOut(2000);
+            $(".content-area").fadeIn(1000);
+            $(".banner-area").fadeIn(1000);
+            $("header").fadeIn(1000);
+        });
+    </script>
 </body>
 </html>
