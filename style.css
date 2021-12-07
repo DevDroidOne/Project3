@@ -39,7 +39,7 @@ nav a{
     font-family: fantasy;
     letter-spacing: 2px;
     font-size: 20px;
-    margin: 7px;
+    margin: px;
     color:darkcyan;
 }
 .banner-area{
@@ -64,7 +64,7 @@ nav a{
     position: relative;
     top: 450px;
     background: #ddd;
-    height: 600px;
+    height: 650px;
     display: none;
 }
 .content-area h3{
